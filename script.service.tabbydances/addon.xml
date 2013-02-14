@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.tabbydances"
+       name="TabbyDances"
+       version="0.1"
+       provider-name="W+K">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="[login|startup]">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Twitter service</summary>
+    <description lang="en">Twitter service - Retrive @mentions and stream music from GrooveShark</description>
+    <platform>all</platform>
+  </extension>
+</addon>
